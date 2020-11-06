@@ -102,12 +102,12 @@ An API that functions as a Local business archive for various business. It utili
 ------------------------------
 
 ## 🛰️ API Documentation
-Explore the API endpoints in Postman or a browser. You will not be able to utilize authentication in a browser.
+Explore the API endpoints in Postman or a browser.
 
 ### Using Swagger Documentation 
 To explore the Local Business API with NSwag, launch the project using `dotnet run` with the Terminal or Powershell, and input the following URL into your browser: `http://localhost:5000/swagger`
 
-### Using the JSON Web Token
+<!-- ### Using the JSON Web Token
 In order to be authorized to use the POST, PUT, DELETE functionality of the API, please authenticate yourself through Postman.
 * Open Postman and create a POST request using the URL: `http://localhost:5000/api/users/authenticate`
 * Add the following query to the request as raw data in the Body tab:
@@ -117,7 +117,7 @@ In order to be authorized to use the POST, PUT, DELETE functionality of the API,
     "Password": "test"
 }
 ```
-* The token will be generated in the response. Copy and paste it as the Token paramenter in the Authorization tab.
+* The token will be generated in the response. Copy and paste it as the Token paramenter in the Authorization tab. -->
 
 <!-- ### Note on Pagination
 The Cretaceous Park API returns a default of 2 results per page at a time.
@@ -153,11 +153,11 @@ DELETE /api/shops/{id}
 ```
 
 
-#### Path Parameters
+<!-- #### Path Parameters
 | Parameter | Type | Default | Required | Description |
 | :---: | :---: | :---: | :---: | --- |
 | name | string | none | false | Return matches by name.
-| ingredient | string | none | false | Return any recipe with a specific ingredient. |
+| ingredient | string | none | false | Return any recipe with a specific ingredient. | -->
 
 #### Example Query
 ```
