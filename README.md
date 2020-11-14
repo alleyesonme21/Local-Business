@@ -127,7 +127,7 @@ To modify this, use the query parameters `limit` and `start` to alter the respon
 ..........................................................................................
 
 ### Endpoints
-Base URL: `https://localhost:5000`
+Base URL: `http://localhost:5000`
 
 ### Restaurants
 Access information about restaurants.
@@ -161,19 +161,19 @@ DELETE /api/shops/{id}
 
 #### Example Query
 ```
-https://localhost:5000/api/restaurants/?name=Chili's Grill & Bar&scity=Wallingford
+http://localhost:5000/api/restaurants/?name=pizza heaven
 ```
 
 #### Sample JSON Response
 ```
 {
-   "restaurantId": 2,
-   "name": "Chili's Grill & Bar",
-   "address": "1085 N Colony Rd, CT 06492",
-   "phone": "203-235-2626",
-   "cuisine": "American",
-   "city": "Wallingford",
-   "rates": 4
+   "restaurantId": 1,
+        "name": "Pizza Heaven",
+        "address": "286 West MAin St. Meriden",
+        "phone": "203-235-2626",
+        "cuisine": "Italian",
+        "city": "Meriden",
+        "rates": 7
 }
 ```
 ### ✉️ Contact and Support
