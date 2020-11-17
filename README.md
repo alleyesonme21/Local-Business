@@ -36,7 +36,8 @@
 ## 🌐 About the Project
 
 ### 📖 Description
-An API that functions as a Local business archive for various business. It utilizies the RESTful principles, Swagger and hs integrated authentication to keep the API Read-Only for all users excpet administrators. The user is able to see the in-use version of the API when using Postman. Currently v1.0.
+An API that functions as a Local business archive for various business. It utilizies the RESTful principles, Swagger.The user is able to see the in-use version of the API when using Postman.Currently v1.0.
+
 
 ### 🦠 Known Bugs
 
@@ -189,7 +190,7 @@ If you have any feedback or concerns, please contact one of the contributors.
 
 ### ⚖️ License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (c) 2020 Johnny Duverseau. All Rights Reserved.
+This project is licensed under the [MIT License](https ://opensource.org/licenses/MIT). Copyright (c) 2020 Johnny Duverseau. All Rights Reserved.
 ```
 MIT License
 
