@@ -27,7 +27,7 @@ namespace LocalBusiness
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "LocalBusiness", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "LocalBusiness", Version = "v1.0" });
             });
         }
 
@@ -49,7 +49,7 @@ namespace LocalBusiness
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1.0");
             });
         }
     }
